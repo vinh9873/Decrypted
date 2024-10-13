@@ -2,7 +2,7 @@ import os
 from cryptography.fernet import Fernet
 
 def load_key():
-    return open("encryption_key.key", "rb").read()
+    return open("C:\\Users\\Administrator\\Downloads\\BT_EthHack-main\\BT_EthHack-main\\encryption_key.key", "rb").read()
 
 def decrypt_file(file_name, key):
     fernet = Fernet(key)
